@@ -1,0 +1,6 @@
+
+# codesys projects
+*.precompilecache
+*.opt
+*.~u
+*info*
