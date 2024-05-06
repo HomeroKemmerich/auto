@@ -1,6 +1,5 @@
 ---
 date: 
-    - 2024-05-05
     - 2024-05-06
 tags:
     - ferramentas
@@ -8,7 +7,7 @@ tags:
     - clp
     - automação-industrial
 ---
-# Instalação dos programas
+# Integração entre Factory IO e Codesys
 
 ## Materiais
 
@@ -16,7 +15,7 @@ tags:
 - [UA Expert](https://www.unified-automation.com/products/development-tools/uaexpert.html)
 - [Codesys](https://www.codesys.com/download.html)
 
-## Integração entre Factory IO e Codesys
+## Instruções
 
 1. Crie um novo projeto no Codesys;
 2. Selecione o controlador que deseja utilizar, nesse caso "Codesys Control Win V3 x64";
