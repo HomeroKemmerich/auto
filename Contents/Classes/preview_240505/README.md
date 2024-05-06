@@ -2,13 +2,18 @@
 date: 
     - 2024-05-05
     - 2024-05-06
+tags:
+    - ferramentas
+    - programas
+    - clp
+    - automação-industrial
 ---
 # Instalação dos programas
 
 ## Materiais
 
 - [Factory IO](https://factoryio.com/)
-- [WinSPS-S7](https://www.mhj-tools.com/?page=winsps-s7)
+- [UA Expert](https://www.unified-automation.com/products/development-tools/uaexpert.html)
 - [Codesys](https://www.codesys.com/download.html)
 
 ## Integração entre Factory IO e Codesys
@@ -75,4 +80,6 @@ date:
 14. Em `Application > Adicionara objeto > Configuração de símbolos`:
 
     a. Selecione `OPC_UA` e pressione `Compilar` (`F11`);
-    
+
+15. Faça logon (`F8`);
+16. Inicie o servidor OPC UA (`F5`);
