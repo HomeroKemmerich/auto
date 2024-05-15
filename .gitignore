@@ -1,6 +1,31 @@
-
 # codesys projects
 *.precompilecache
 *.opt
 *.~u
 *info*
+
+# WinSPS-S7 projects
+
+# Arquivos de compilação e saída
+*.exe
+*.dll
+*.obj
+*.pdb
+*.ilk
+*.aps
+*.tmp
+
+# Pasta de saída do projeto
+/bin/
+/obj/
+
+# Arquivos de configuração do ambiente local
+*.suo
+*.user
+
+# Arquivos de dependências externas
+/packages/
+
+# Arquivos de log ou rastreamento
+*.log
+*.trace
