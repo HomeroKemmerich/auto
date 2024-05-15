@@ -29,7 +29,8 @@ O objetivo do exemplo era fazer com que um objeto se movimentasse do ponto A ao 
 - [Solução](../../solutions/FromA_ToB/FromA_ToB.WS7)
 - [Cena](../../scenes/FromA_ToB.factoryio)
 
-<video controls src="./videos/Factory IO 2024-05-14 21-41-46.mp4" title="From A to B"></video>
+![De A a B](./videos/Factory%20IO%202024-05-14%2021-41-46.mp4)
+
 
 ### Desafio - set e reset
 
@@ -38,7 +39,7 @@ O desafio proposto pelo professor consistia em criar um sistema de ida e volta d
 - [Solução](../../solutions/Set_Reset/)
 - [Cena](../../scenes/Set_Reset.factoryio)
 
-<video controls src="./videos/Factory IO 2024-05-14 21-58-00.mp4" title="Set e reset"></video>
+![Set e reset](./videos/Factory%20IO%202024-05-14%2021-58-00.mp4)
 
 > [!NOTE]
 > #### Por que o circuito _ladder_ está montado da forma que está?
