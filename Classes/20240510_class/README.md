@@ -40,7 +40,8 @@ O desafio proposto pelo professor consistia em criar um sistema de ida e volta d
 
 <video controls src="./videos/Factory IO 2024-05-14 21-58-00.mp4" title="Set e reset"></video>
 
-> [!NOTE] Por que o circuito _ladder_ está montado da forma que está?
+> [!NOTE]
+> #### Por que o circuito _ladder_ está montado da forma que está?
 > O sensor utilizado na cena é um sensor de retorno, o que quer dizer que o mesmo emite um sinal e aguarda recebê-lo de volta. Quando o objeto interrompe este sinal, gerando uma resposta.
 > Se utilizarmos um terminal aberto para identificar o sensor, o mesmo estaria ativado enquanto o sinal estivesse recebendo o retorno. Nós queremos que a ativação/desativação dos atuadores ocorra apenas quando o objeto cruzar o sensor, portanto o estado padrão deve ser **desativado**.
 > Utilizamos atuadores do tipo SET e RESET, pois precisávamos que os atuadores mantivessem seu comportamento **mesmo após o objeto ter cruzado o sensor**, o que exige uma forma simples de armazenamento de estado.
