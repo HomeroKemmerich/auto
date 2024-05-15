@@ -1,3 +1,5 @@
+
+https://github.com/HomeroKemmerich/auto/assets/42485205/250372ce-34ff-45cb-9987-72e109055048
 ---
 date: 2024-05-10
 title: Introdução ao PLC
@@ -29,7 +31,7 @@ O objetivo do exemplo era fazer com que um objeto se movimentasse do ponto A ao 
 - [Solução](../../solutions/FromA_ToB/FromA_ToB.WS7)
 - [Cena](../../scenes/FromA_ToB.factoryio)
 
-![De A a B](./videos/Factory%20IO%202024-05-14%2021-41-46.mp4)
+https://github.com/HomeroKemmerich/auto/assets/42485205/b3b88c4a-101c-4653-a004-e24b51334e4d
 
 
 ### Desafio - set e reset
@@ -39,7 +41,8 @@ O desafio proposto pelo professor consistia em criar um sistema de ida e volta d
 - [Solução](../../solutions/Set_Reset/)
 - [Cena](../../scenes/Set_Reset.factoryio)
 
-![Set e reset](./videos/Factory%20IO%202024-05-14%2021-58-00.mp4)
+https://github.com/HomeroKemmerich/auto/assets/42485205/79a16f21-9e1f-44ec-9d5e-5d8cac21ad56
+
 
 > [!NOTE]
 > #### Por que o circuito _ladder_ está montado da forma que está?
