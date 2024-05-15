@@ -1,5 +1,3 @@
-
-https://github.com/HomeroKemmerich/auto/assets/42485205/250372ce-34ff-45cb-9987-72e109055048
 ---
 date: 2024-05-10
 title: Introdução ao PLC
