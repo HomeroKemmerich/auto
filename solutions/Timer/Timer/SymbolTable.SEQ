@@ -1,0 +1,6 @@
+Fill	I    0.0	BOOL	
+Discharge	I    0.1	BOOL	
+Filling	Q    0.1	BOOL	
+Discharging	Q    0.3	BOOL	
+FillValve	Q    0.0	BOOL	
+DischargeValve	Q    0.2	BOOL	

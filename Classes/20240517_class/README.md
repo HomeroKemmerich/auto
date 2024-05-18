@@ -7,4 +7,4 @@ tags:
 --- 
 # Timer
 
- 
+- Configure o tempo do timer preenchendo `S5T#[tempo]S` na saída
