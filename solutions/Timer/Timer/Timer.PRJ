@@ -54,7 +54,7 @@ NetLinkPro_RetryLimit=2
 NetLinkPro_Ttr=18176
 NetLinkPro_Busprofil=0
 NetLinkPro_Baudrate=2
-ProjektZeitMS=8688618
+ProjektZeitMS=8728618
 [INIT]
 PrgName=WinSPS-S7
 Version=V5.036
