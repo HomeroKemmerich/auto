@@ -30,7 +30,7 @@ TITLE=Fill block
 //- [!] Existe um delay na hora de desligar
 
        A    I0.0  
-       FP   M         0.0
+       FP   M         0.0  
        L    S5T#4S  
        SF   T0  
        A    T0  
@@ -47,7 +47,7 @@ TITLE=Discharge block
        =    Q         0.2
        =    Q         0.3
 NETWORK
-TITLE= 
+TITLE= Display block
 //{{a}}
 //L - Load
 

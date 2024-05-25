@@ -10,10 +10,4 @@ tags:
 
 --- 
 # Timer
-
-- Configure o tempo do timer preenchendo `S5T#[tempo]S` na saída
-
-...
-
-- Crie um novo bloco
-- Adicione o bloco FC 105
+    

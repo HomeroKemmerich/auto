@@ -1,0 +1,26 @@
+//{{V2}}
+DATA_BLOCK DB1
+
+AUTHOR:mh
+FAMILY:nb
+NAME:nb
+VERSION:1.0
+
+
+       STRUCT 
+         Level:REAL:=0.000000e+00  
+         Flow:REAL:=0.000000e+00  
+         SP:REAL:=0.000000e+00  
+         Kp:REAL:=0.000000e+00  
+         Ki:REAL:=0.000000e+00  
+         Error:REAL:=0.000000e+00  
+       END_STRUCT 
+BEGIN
+
+       Level:=0.000000e+00
+       Flow:=0.000000e+00
+       SP:=0.000000e+00
+       Kp:=0.000000e+00
+       Ki:=0.000000e+00
+       Error:=0.000000e+00
+END_DATA_BLOCK

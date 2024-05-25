@@ -3,7 +3,7 @@ ORGANIZATION_BLOCK OB35
 TITLE= "Cyclic Interrupt"
 
 
-AUTHOR:nb
+AUTHOR:mh
 FAMILY:nb
 NAME:nb
 VERSION:1.0
@@ -25,9 +25,14 @@ BEGIN
 
 NETWORK
 TITLE=
-//{{a}}
+//{{k}}
 
-
-
-
+       CALL FC      105
+         IN:=IW100
+         HI_LIM:=10.0
+         LO_LIM:=0.0
+         BIPOLAR:=FALSE
+         RET_VAL:=MW200
+         OUT:=DB1.Level
+       NOP  0
 END_ORGANIZATION_BLOCK
