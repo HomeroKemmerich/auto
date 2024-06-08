@@ -24,35 +24,10 @@ END_VAR
 BEGIN
 
 NETWORK
-TITLE=Fill block
-//{{k}}
-//- Aciona a válvula por 4 segundos
-//- [!] Existe um delay na hora de desligar
-
-       A    I0.0  
-       FP   M         0.0  
-       L    S5T#4S  
-       SF   T0  
-       A    T0  
-       =    Q0.0  
-       =    Q0.1  
-NETWORK
-TITLE=Discharge block
+TITLE= 
 //{{k}}
 
-       AN   I         0.1
-       L    S5T#4S
-       SF   T1
-       A    T1
-       =    Q         0.2
-       =    Q         0.3
-NETWORK
-TITLE= Display block
-//{{a}}
-//L - Load
-
-       L    IW      100
-       T    QW      100
-
-
+  
+  
+  
 END_ORGANIZATION_BLOCK

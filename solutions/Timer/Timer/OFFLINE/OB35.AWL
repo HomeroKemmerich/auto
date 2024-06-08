@@ -28,11 +28,85 @@ TITLE=
 //{{k}}
 
        CALL FC      105
-         IN:=IW100
-         HI_LIM:=10.0
-         LO_LIM:=0.0
-         BIPOLAR:=FALSE
-         RET_VAL:=MW200
-         OUT:=DB1.Level
+         IN:=IW100  
+         HI_LIM:=10.0  
+         LO_LIM:=0.0  
+         BIPOLAR:=FALSE  
+         RET_VAL:=MW200  
+         OUT:=DB1.Level  
+       A    BR  
+       JNB  _001  
+       CALL FC105  
+         IN:=IW104  
+         HI_LIM:=10.0  
+         LO_LIM:=0.0  
+         BIPOLAR:=FALSE  
+         RET_VAL:=MW200  
+         OUT:=DB1.SP  
+_001  :A    BR  
+       JNB  _002  
+       CALL FC105  
+         IN:=IW106  
+         HI_LIM:=10.0  
+         LO_LIM:=0.0  
+         BIPOLAR:=FALSE  
+         RET_VAL:=MW200  
+         OUT:=DB1.Kp  
+_002  :A    BR  
+       JNB  _003  
+       CALL FC105  
+         IN:=IW108  
+         HI_LIM:=10.0  
+         LO_LIM:=0.0  
+         BIPOLAR:=FALSE  
+         RET_VAL:=MW200  
+         OUT:=DB1.Ki  
+_003  :A    BR  
+       JNB  _004  
+       CALL FC105  
+         IN:=IW102  
+         HI_LIM:=10.0  
+         LO_LIM:=0.0  
+         BIPOLAR:=FALSE  
+         RET_VAL:=MW200  
+         OUT:=DB1.Flow  
+_004:  NOP  0
+NETWORK
+TITLE= 
+//{{k}}
+
+       L    IW      104
+       T    QW        104
+       SET  
+       SAVE 
+       CLR  
+       A    BR
+       JNB  _005
+       L    IW        100
+       T    QW        106
+_005:  NOP  0
+NETWORK
+TITLE= 
+//{{k}}
+
+       CALL FB1,DB10  
+         SP:=DB1.SP  
+         PV:=DB1.Level  
+         K_P:=DB1.Kp  
+         K_I:=DB1.Ki  
+         CTRL:=DB1.CTRL  
+         E:=DB1.Error  
+       NOP  0  
+NETWORK
+TITLE= 
+//{{k}}
+
+       CALL FC      106
+         IN:=DB1.CTRL  
+         HI_LIM:=10.0  
+         LO_LIM:=0.0  
+         BIPOLAR:=FALSE  
+         RET_VAL:=MW200  
+         OUT:=QW100  
        NOP  0
 END_ORGANIZATION_BLOCK

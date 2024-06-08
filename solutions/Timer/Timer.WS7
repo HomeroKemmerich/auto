@@ -3,9 +3,9 @@ Kennung=WS7V2
 iAktivesUnterprojekt=0
 bSimulatorAktiv=1
 ExternWeg=0
-LetzteAenderungTicks=152019589
-LetzteAenderungDatum=18.05.2024
-LetzteAenderungUhrzeit=16:20:06
+LetzteAenderungTicks=105569843
+LetzteAenderungDatum=07.06.2024
+LetzteAenderungUhrzeit=21:15:11
 WinPLC7-Version=V5.036
 [UPrj]
 P0=TIMER\TIMER.PRJ

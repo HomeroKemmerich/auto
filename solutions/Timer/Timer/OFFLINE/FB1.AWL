@@ -1,0 +1,52 @@
+//{{V2}}
+FUNCTION_BLOCK FB1
+TITLE=   <Title of FB>
+
+
+AUTHOR:mh
+FAMILY:nb
+NAME:nb
+VERSION:1.0
+
+
+VAR_INPUT
+       SP:REAL:=0.000000e+00  
+       PV:REAL:=0.000000e+00  
+       K_P:REAL 
+       K_I:REAL:=0.000000e+00  
+END_VAR
+
+VAR_OUTPUT
+       CTRL:REAL:=0.000000e+00  
+       E:REAL:=0.000000e+00  
+END_VAR
+
+VAR_IN_OUT
+END_VAR
+
+VAR
+END_VAR
+
+VAR_TEMP
+END_VAR
+BEGIN
+
+NETWORK
+TITLE=   <Title of Network>
+//{{k}}
+
+       L    #SP
+       L    #PV  
+       -R   
+       T    #E  
+       AN   OV  
+       SAVE 
+       CLR  
+       A    BR  
+       JNB  _001  
+       L    #E  
+       L    #K_P  
+       *R   
+       T    #CTRL  
+_001:  NOP  0
+END_FUNCTION_BLOCK
