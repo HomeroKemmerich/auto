@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Symbolconfiguration xmlns="http://www.3s-software.com/schemas/Symbolconfiguration.xsd">
+  <Header>
+    <Version>3.5.14.0</Version>
+    <SymbolConfigObject version="4.4.0.0" runtimeid="3.5.19.30" libversion="4.4.0.0" compiler="3.5.19.30" lmm="3.5.19.30" profile="XSOFT-CODESYS V3.5.19+" settings="SupportOPCUA, LayoutCalculator=OptimizedClientSideLayoutCalculator" />
+    <ProjectInfo name="TransferMerge" devicename="Device" appname="Application" />
+  </Header>
+  <TypeList>
+    <TypeSimple name="T_BOOL" size="1" swapsize="0" typeclass="Bool" iecname="BOOL" />
+  </TypeList>
+  <NodeList>
+    <Node name="Application">
+      <Node name="GVL">
+        <Node name="AtEntry1" type="T_BOOL" access="ReadWrite" />
+        <Node name="AtEntry2" type="T_BOOL" access="ReadWrite" />
+        <Node name="AtExit" type="T_BOOL" access="ReadWrite" />
+        <Node name="AtTransfer1" type="T_BOOL" access="ReadWrite" />
+        <Node name="AtTransfer2" type="T_BOOL" access="ReadWrite" />
+        <Node name="Conveyor1" type="T_BOOL" access="ReadWrite" />
+        <Node name="Conveyor2" type="T_BOOL" access="ReadWrite" />
+        <Node name="EmergencyStop" type="T_BOOL" access="ReadWrite" />
+        <Node name="ExitConveyor" type="T_BOOL" access="ReadWrite" />
+        <Node name="Load1" type="T_BOOL" access="ReadWrite" />
+        <Node name="Load2" type="T_BOOL" access="ReadWrite" />
+        <Node name="SimRunning" type="T_BOOL" access="ReadWrite" />
+        <Node name="Start" type="T_BOOL" access="ReadWrite" />
+        <Node name="StartLight" type="T_BOOL" access="ReadWrite" />
+        <Node name="Stop" type="T_BOOL" access="ReadWrite" />
+        <Node name="StopLight" type="T_BOOL" access="ReadWrite" />
+        <Node name="TransferLeft1" type="T_BOOL" access="ReadWrite" />
+        <Node name="TransferLeft2" type="T_BOOL" access="ReadWrite" />
+        <Node name="TransferRight1" type="T_BOOL" access="ReadWrite" />
+        <Node name="TransferRight2" type="T_BOOL" access="ReadWrite" />
+        <Node name="Unload1" type="T_BOOL" access="ReadWrite" />
+        <Node name="Unload2" type="T_BOOL" access="ReadWrite" />
+      </Node>
+    </Node>
+  </NodeList>
+</Symbolconfiguration>
